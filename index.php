@@ -7,7 +7,7 @@
     <title>Document</title>
 </head>
 <body>
-
+<span>pomme (au kilo) : </span>
 
 
     <button id="minus">-</button>
@@ -17,5 +17,7 @@
     <span id="counter">0</span>
 
     <script src="main.js"></script>
+
+<div id="total">TOTAL : <span id="total"></span></div>
 </body>
 </html>

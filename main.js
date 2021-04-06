@@ -1,7 +1,10 @@
 const counter=document.getElementById('counter');
 const butonPlus=document.getElementById('plus');
 const butonMinus=document.getElementById('minus');
-let counterValue=0
+let counterValue=0;
+const applePrice=0.97;
+const total=document.getElementById('total');
+var calculPrice = counterValue
 
 butonPlus.addEventListener('click', function(){
     counterValue++;
@@ -13,7 +16,10 @@ butonPlus.addEventListener('click', function(){
     
     else{
         counter.innerHTML=counterValue+' articles';
+        total.innerHTML=calculPrice;
     }
+
+
 }
 );
 
@@ -31,5 +37,11 @@ butonMinus.addEventListener('click', function(){
     else{
         counter.innerHTML=counterValue+' articles';
     }
+
+    total.innerHTML= counterValue*applePrice;
+
 }
+
+
 );
+
