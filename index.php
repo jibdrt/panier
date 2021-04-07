@@ -18,6 +18,6 @@
 
     <script src="main.js"></script>
 
-<div id="total">TOTAL : <span id="total"></span></div>
+<div>TOTAL : <span id="total"></span></div>
 </body>
 </html>
